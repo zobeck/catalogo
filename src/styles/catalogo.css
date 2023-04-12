@@ -1,0 +1,19 @@
+.main {
+    background-color: #f8e5b9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(41, 22, 1);
+  }
+
+  .ficha{
+    background-color: azure;
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+  }
