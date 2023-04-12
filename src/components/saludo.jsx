@@ -1,13 +1,19 @@
 import React from 'react'
 
- function Hola (props){
+ function Hola ({name, edad}){
+  
   return (
     <>
      <h1>
-      Hola Tatiana!
+      Hola {name}!
      </h1>
+     <p>
+       Tiene  años 
+     </p>
     </>
   )
 }
 
+
 export default Hola;
+
