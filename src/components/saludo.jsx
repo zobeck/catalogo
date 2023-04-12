@@ -1,6 +1,6 @@
 import React from 'react'
 
- function Hola ({name, edad}){
+ function Hola ({name, edad, pais}){
   
   return (
     <>
