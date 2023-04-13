@@ -1,17 +1,22 @@
 import React from "react";
 import "../styles/catalogo.css"
 import MoreInfo from "./precio";
+import Funcional from "./Funcional";
 
-export default function Libro(props) {
-  console.log(props);
+export default function Libro({valores}) {
+
+  console.log(valores);
   return (
     <>
       <item className="ficha">
-        <h3> {props.title}</h3>
-        <p>
-          <i>{props.author}</i>
-        </p>
-        <MoreInfo description={props.description} price={props.price} stock={props.stock}/>
+        <h2>{valores.nombre}</h2>
+
+        <p> Del aclamado {valores.autor}</p>
+       
+        <p>${valores.precio} mxn</p>
+       <MoreInfo edicion={valores.edicion} nombre={valores.nombre} />
+       <Funcional  autor={valores.autor}/>
+
       </item>
     </>
   );
