@@ -4,10 +4,10 @@ import Libro from './components/catalogo';
 function App() {
 
   const valores = {
-     nombre : "Nieve",
-     autor:"Orham Pamuk",
-     precio: 499,
-     edicion : "Tapa blanda",
+     nombre : "",
+     autor:"",
+     precio: 0,
+     edicion : "",
      stock:true
     }
   
