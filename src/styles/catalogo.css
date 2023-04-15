@@ -1,19 +1,44 @@
 .main {
-    background-color: #f8e5b9;
+    background-color: #343637;
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: rgb(41, 22, 1);
+    color: rgb(4, 174, 152);
   }
 
   .ficha{
     background-color: azure;
-    width: 200px;
+    width: 100px;
     border-radius: 15px;
     padding: 10px;
     margin: 5px;
+  }
+
+  .titulo{
+    color: rgb(1, 65, 28);
+    text-align: left;
+    padding-left: 25px;
+  }
+
+  .formulario{
+    width: 250px;
+    background-color: rgb(253, 255, 255);
+    color: midnightblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-self: center;
+    font-size: small;
+    padding-top: 10px;
+   padding-bottom: 10px;
+  }
+
+  .formulario label{
+    color: orangered;
+    font-size: 12px;
   }
