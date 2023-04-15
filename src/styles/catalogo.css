@@ -42,3 +42,9 @@
     color: orangered;
     font-size: 12px;
   }
+
+  .formulario button{
+   margin-top: 10px;
+   color: darkcyan;
+   border-radius: 35px;
+  }
