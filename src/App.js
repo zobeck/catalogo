@@ -1,24 +1,18 @@
 import './styles/catalogo.css';
-import Libro from './components/catalogo';
+import NewBookReg from './components/newBookReg';
 
 function App() {
 
-  const valores = {
-     nombre : "",
-     autor:"",
-     precio: 0,
-     edicion : "",
-     stock:true
-    }
+ 
   
 
   return (
    <>
-    <h1 className='titulo'>Libros el perrito</h1>
-    <div className="main">
+    <h3 className='titulo'>Libros el perrito</h3>
+     <div className='main'>
      
-     
-   <Libro valores={valores}/>
+     <NewBookReg/>
+ 
     </div>
    </>
   );
